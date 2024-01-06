@@ -83,7 +83,8 @@ body {
 }
 
 .sidebar {
-  background-color: #1373c2;
+  background-color: #7fceff26;
+  backdrop-filter: blur(10px);
   width: 275px;
   height: 7006px;
   font-family: 'Fira Sans', sans-serif;
@@ -96,16 +97,34 @@ body {
   margin: 10px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  color: rgb(255, 255, 255);
+   color: #00ecff;
   font-size: 24px;
 }
 
 .profile img {
   width: 180px;
   border-radius: 50%;
-  border: 10px solid var(--iconBGColor);
+  border: 3px solid aqua;
 }
 
+.social-icons2 {
+  padding: 20px;
+}
+
+.social-icons2 a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+ color: #a3dbf7;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons2 a:hover {
+  color: #0037ff;
+  transform: translate(-5px);
+
+}
 .sidebar nav {
   padding: 5px 40px;
 }
@@ -650,24 +669,6 @@ form textarea:hover {
   margin-top: 20px;
 }
 
-.social-icons2 {
-  padding: 20px;
-}
-
-.social-icons2 a {
-  text-decoration: none;
-  font-size: 30px;
-  margin-right: 15px;
-  color: #ffffff;
-  display: inline-block;
-  transition: transform 0.5s;
-}
-
-.social-icons2 a:hover {
-  color: #0037ff;
-  transform: translate(-5px);
-
-}
 
 @media only screen and (max-width: 1050px) {
   * {
