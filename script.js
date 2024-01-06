@@ -45,6 +45,8 @@ document.querySelector('.ham').addEventListener("click", ()=>{
         //         .catch(error => console.error('Error!', error.message))
         // })
         // typing effect
+
+        
         
 
         
